@@ -3,11 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
 
+//aqui criamos as rotas
 const routes: Routes = [
   {
   path: '',
   data: {
-      title: 'Get Started'
+      title: 'Introdução'
   },
   children: [
     {
@@ -71,7 +72,7 @@ const routes: Routes = [
         },
       ]
     }, {
-      path: 'boxs',
+      path: 'bosque',
       data: {
         title: 'Boxs',
       },

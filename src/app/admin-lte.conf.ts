@@ -43,6 +43,8 @@
 //   ]
 // };
 
+//aqui apontamos as rotas
+
 export const adminLteConf = {
   skin: 'blue',
   // isSidebarLeftCollapsed: false,
@@ -57,7 +59,7 @@ export const adminLteConf = {
     {label: 'ESTEIRA COMEX - CEOPC/GEOPC', separator: true},
     {label: 'Introdução', route: '/', iconClasses: 'fa fa-home'},
     {label: 'Solicitações', iconClasses: 'fa fa-sign-in', children: [
-        {label: 'Liquidação de ACC/ACE', route: 'layout/configuration'},
+        {label: 'Liquidação de ACC/ACE', route: 'layout/content'},
         {label: 'Operações Antecipadas', route: 'layout/custom'},
         {label: 'Atualiza E-mail - Cliente Comex', route: 'layout/header'}
     ]},
