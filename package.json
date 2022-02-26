@@ -50,7 +50,7 @@
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
     "ionicons": "^2.0.1",
-    "prismjs": "^1.8.4",
+    "prismjs": "^1.27.0",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
   },
